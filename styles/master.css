@@ -44,3 +44,26 @@ nav {
    border-radius: 15px;
 
 }
+.highlighted_test{
+ color: green;
+
+}
+.video_section{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items : center;
+}
+.image_jpg{
+background-color: red;
+display:grid;
+grid-template-columns: auto auto;
+padding: 2rem;
+
+}
+.txt1{
+  display: flex;
+  justify-content: end;
+}
+.txt{
+}
