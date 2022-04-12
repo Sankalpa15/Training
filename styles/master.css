@@ -3,7 +3,9 @@ body{
     font-family: 'Roboto';
 }
 nav {
- 
+  position: sticky;
+  top: 0%;
+  background-color: white;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -48,6 +50,11 @@ nav {
  color: green;
 
 }
+/* schedule's page css  */
+.schedule{
+  text-align: center;
+  background-color: aquamarine;
+}
 .video_section{
   display: flex;
   flex-direction: column;
@@ -55,7 +62,7 @@ nav {
   align-items : center;
 }
 .image_jpg{
-background-color: red;
+
 display:grid;
 grid-template-columns: auto auto;
 padding: 2rem;
@@ -66,4 +73,108 @@ padding: 2rem;
   justify-content: end;
 }
 .txt{
+}
+.secs{
+  display: flex;
+  justify-content: center;
+}
+
+
+.second{
+  
+  display: grid;
+  grid-template-columns: auto auto auto;
+ padding: 2rem;
+  
+}
+.abbs{
+  margin: 2rem  ;
+}
+.meal{
+  color: rgb(11, 226, 11);
+}
+.head{
+  line-height: 2px;
+}
+.third{
+  text-align: center;
+}
+.hig  {
+  color: green;
+}
+/* meal plan section   */
+.back_g{
+  background-image: url(../images/back.jpg);
+  background-repeat: no-repeat;
+  background-position: 10px;
+  
+}
+.main_division{
+  display: flex;
+  justify-content: space-around;
+}
+.left_part{
+  
+ width: 360px;
+
+  
+  
+}
+
+.picture_side{
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 15px;
+  
+}
+.pic_c{
+  position: relative;
+  border: 1px solid white;
+  border-radius: 10px;
+  -webkit-box-shadow: 1px 2px 12px 5px rgba(0,0,0,0.72); 
+box-shadow: 1px 2px 12px 5px rgba(0,0,0,0.72);
+}
+
+
+.tet_t{
+ color: rgb(30, 230, 30);
+  border: 1px solid rgb(243, 238, 238);
+  background-color: white;
+  position: absolute;
+  bottom: -24px;
+  left: -9px;
+  padding: 12px 12px;
+  border-radius: 10px;
+
+}
+
+.wass{
+  display: flex;
+  justify-content: center;
+  
+}
+.okay{
+  text-align: left;
+  padding: 80px;
+  width: 800px;
+  float: left;
+}
+.author{
+  float: right;
+}
+/* next section  */
+.headding{
+  text-align: center;
+  
+}
+.mann{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  
+}
+.coll{
+  color: rgb(21, 218, 21);
+}
+.bottom_line{
+  color: rgb(6, 231, 6);
 }
